@@ -1,0 +1,98 @@
+.ab-container{
+    width: 100%;
+    color: rgb(128, 126, 126);
+    margin-bottom: 50px;
+}
+.ab-wrap{
+    width: 75%;
+    margin: auto;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.ab-title{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.ab-wrap h2{
+    line-height: 3.2;
+}
+.ab-wrap span{
+    line-height: 2.8;
+}
+.ab-wrap p{
+    line-height: 1.5;
+    text-align: justify;
+}
+.ab-info{
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-bottom: 40px;
+}
+.ab-info-pic{
+    width: 50%;
+    /* border: 1px solid black; */
+}
+.ab-info-pic span{
+    padding: 0 10px;
+}
+.ab-info-pic img{
+    width: 90%;
+}
+.ab-info-data{
+    width: 50%;
+    /* border: 1px solid black; */
+    text-align: left;
+    padding: 20px;
+    line-height: 1.7;
+}
+.ab-skills{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.ab-s-detail{
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+}
+.ab-inner-datail{
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+.ab-s-detail Progress{
+    height: 40px;
+    width: 100%;
+}
+.ab-inn{
+    line-height: 0.1;
+}
+.ab-inn progress{
+    line-height: 0;
+}
+@media screen and (max-width: 767px){
+    .ab-wrap{
+        width: 100%;
+    }
+    .ab-info{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ab-info-pic{
+        width: 100%;
+    }
+    .ab-info-pic img{
+        width: 75%;
+    }
+    .ab-info-data{
+        display: none;
+    }
+    .ab-inner-datail{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,116 @@
+.cn-container{
+    width: 100%;
+    color: rgb(82, 80, 80);
+}
+.cn-title{
+    background: url("https://www.w3schools.com/w3images/parallax3.jpg") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+}
+.cn-title h1{
+    color: white;
+    font-size: 3rem;
+}
+.cn-data{
+    width: 70%;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.cn-dt-tile{
+    margin-top: 60px;
+    text-align: center;
+}
+.cn-ct{
+    display: flex;
+    margin: 40px 0;
+    /* justify-self:self-start; */
+}
+.cn-left{
+    width: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.cn-left img{
+    width: 80%;
+    height: 179px;
+    padding: 5px;
+    border-radius: 15px;
+}
+.cn-right{
+    width: 60%;
+    /* border: 1px solid black; */
+}
+.cn-r-wrap{
+    width: 98%;
+    padding: 0  12px;
+}
+.cn-r-upper{
+    padding: 12px 0;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+}
+.cn-ct-detail{
+    display: flex;
+    align-items: center;
+}
+.cn-r-wrap h3{
+    font-size: 17px;
+    color: rgb(82, 80, 80);
+}
+.cn-in-group{
+    display: flex;
+}
+.cn-in-group input{
+    width: 47%;
+    margin: 5px;
+    border: 1px solid lightgray;
+    font-size: 15px;
+    padding: 8px;
+}
+.msg-inp input{
+    width: 97%;
+    margin: 5px;
+    border: 1px solid lightgray;
+    font-size: 15px;
+    padding: 8px;
+}
+.cn-r-lower{
+    display: flex;
+    flex-direction: column;
+}
+.cn-r-lower Button{
+    margin: 5px;
+    width: 40%;
+    height: 43px;
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width: 767px){
+    .cn-data{
+        width: 100%;
+    }
+    .cn-title{
+        height: 250px;
+    }
+    .cn-ct{
+        flex-direction: column;
+    }
+    .cn-left{
+        width: 100%;
+    }
+    .cn-right{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .cn-r-lower Button{
+        width: 50%;
+    }
+}
