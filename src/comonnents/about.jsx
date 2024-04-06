@@ -1,5 +1,5 @@
 import React from 'react'
-import { UserOutlined,CameraOutlined,LaptopOutlined,FileImageOutlined,CameraFilled } from '@ant-design/icons';
+import { UserOutlined,LaptopOutlined,FileImageOutlined,CameraFilled } from '@ant-design/icons';
 import { Progress } from 'antd';
 import './about.css'
 import style from './about.less'
