@@ -16,10 +16,10 @@ export const Footer=() =>{
             
                 <Button onClick={scrollToTop}><ArrowUpOutlined />To The Top</Button>
                 <div className="f-flex">
-                    <a href=''><FacebookFilled /></a>
-                    <a href=''><InstagramFilled /></a>
-                    <a href=''><TwitterOutlined /></a>
-                    <a href=''><LinkedinFilled /></a>
+                    <a href='https://www.google.com/'><FacebookFilled /></a>
+                    <a href='https://www.google.com/'><InstagramFilled /></a>
+                    <a href='https://www.google.com/'><TwitterOutlined /></a>
+                    <a href='https://www.google.com/'><LinkedinFilled /></a>
                 </div>
                 <span>Powered by w3.css</span>
            
