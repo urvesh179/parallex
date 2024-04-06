@@ -15,7 +15,7 @@ export const Contact=() =>{
                 </div>
                 <div className="cn-ct">
                     <div className="cn-left">
-                        <img src="https://www.w3schools.com/w3images/map.jpg"/>
+                        <img src="https://www.w3schools.com/w3images/map.jpg" alt="name" />
                     </div>
                     <div className="cn-right">
                         <div className="cn-r-wrap">
