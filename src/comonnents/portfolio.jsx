@@ -39,7 +39,7 @@ const data=[
 export const Port=() =>{
     const pictures=(src)=>{
         return(
-            <img src={src.data}/>
+            <img src={src.data} alt="name"/>
         )
     }
     return (
